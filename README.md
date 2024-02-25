@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 ¡Hola! Soy Miguel y estoy encantado de mostrarte mi portafolio, donde he recopilado una selección de proyectos que he creado utilizando una variedad de herramientas y tecnologías. Utilicé HTML, CSS y Bootstrap para dar vida a estos proyectos, aprovechando al máximo las capacidades de cada una de estas tecnologías.
 
