@@ -1,7 +1,7 @@
 /* Barra de navegacion */
 .navbar {
-  padding: 2rem;
-  background-color: #f5f6f7;
+  padding: 0.5rem;
+  background-color: #faf9f9;
 }
 
 .navbar-collapse {
@@ -33,7 +33,7 @@ section {
 /* Seccion Hero */
 .hero {
   background-color: #f5f6f7;
-  min-height: 450px;
+  min-height: 800px;
   text-align: center;
 }
 
@@ -65,6 +65,7 @@ h1 {
 
 .seccion-texto {
   font-size: 1.2rem;
+  line-height: 2;
 }
 
 .hero-principal {
@@ -371,16 +372,28 @@ footer {
   padding: 20px;
   margin-top: 5px;
 }
+
+.textArticle {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Adaptable responsivo */
 @media screen and (max-width: 767px) {
   .navbar-brand {
     display: none;
+  }
+  .seccion-texto {
+    line-height: none;
   }
 }
 
 @media screen and (min-width: 700px) {
   .hero-inferior-imagen {
     max-width: 600px;
+  }
+  .seccion-texto {
+    line-height: none;
   }
 }
 
@@ -392,6 +405,9 @@ footer {
   .overlay i {
     font-size: 40px;
   }
+  .seccion-texto {
+    line-height: none;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -402,6 +418,10 @@ footer {
 
   .testimonio-texto {
     font-size: 18px;
+  }
+
+  .seccion-texto {
+    line-height: none;
   }
 }
 
